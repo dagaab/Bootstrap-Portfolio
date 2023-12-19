@@ -9,41 +9,73 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="css/index.css" rel="stylesheet">
+    <link href="/Bootstrap-Portfolio/CSS/style.css" rel="stylesheet">
 
     <title>Dagmara Abramowicz - Bootstrap Portfolio</title>
 
  </head>
     <body>
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Dagmara Abramowicz</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="#">About</a>
-              <a class="nav-item nav-link" href="#">Work</a>
-              <a class="nav-item nav-link" href="#">Contact</a>
+        <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+          <img class="photo" src="/Bootstrap-Portfolio/images/photo.jpg" alt="a picture of me">
+          <div class="container">
+            <a class="navbar-brand" href="#page-top">Dagmara Abramowicz</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+              aria-label="Toggle navigation">
+              Menu
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#download">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#features">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Resume</a>
+                </li>
+              </ul>
             </div>
           </div>
         </nav>
 
         <!-- Header -->
-        <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron jumbotron-fluid banner">
             <div class="container">
-              <h1 class="display-4">Fluid jumbotron</h1>
-              <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+              <h1 class="display-4">Front-End Developer</h1>
             </div>
           </div>
 
         <!--Main-->
+      <main class="page-wrapper">
+      <!-- about me -->
+      <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <br>
+        <br>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </section>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="horiseon">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
         <div class="row">
             <div class="col-sm-6">
               <div class="card">
-                <div class="card-body">
+                <div class="led-wall">
                   <h5 class="card-title">Special title treatment</h5>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -52,7 +84,25 @@
             </div>
             <div class="col-sm-6">
               <div class="card">
-                <div class="card-body">
+                <div class="calculator">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="pastel-puzzles">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="run-buddy">
                   <h5 class="card-title">Special title treatment</h5>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -63,11 +113,12 @@
 
         <!--Footer-->
         <nav class="nav">
-            <a class="nav-link active" href="#">Active</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link disabled" href="#">Disabled</a>
+          <h2>Contact Me</h2>
+            <a class="nav-link" href="mailto:dagmara.abramowicz@gmail.com">Email</a>
+            <a class="nav-link" href="https://github.com/dagaab">Github</a>
+            <a class="nav-link" href="https://twitter.com/?lang=en">Twitter</a>
+            <a class="nav-link" href="http://www.linkedin.com/in/dagmara-abramowicz-1b91131a2">LinkedIn</a>
           </nav>
-    
+    </main>
     </body>
 </html>

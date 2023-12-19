@@ -1,0 +1,61 @@
+/* Main Navbar*/
+#mainNav {
+    background-color: rgb(46, 45, 45);
+    transition: all 0.35s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+  }
+
+  .photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 90px;
+    border: 5px solid rgb(109, 183, 204);
+    margin-right: 0px;
+  }
+
+  .navbar-brand {
+    padding-right: 5px;
+    padding-left: 50px;
+    margin-left: 0px;
+    background-color: rgb(109, 183, 204);
+    color: rgb(20, 42, 89);
+  }
+
+  ul li a {
+    color: rgb(83, 166, 189);
+    border-bottom: 2px solid rgb(109, 183, 204);
+    margin: 5px;
+    text-decoration: none;
+  }
+
+  .jumbotron {
+    background-image: url("/Bootstrap-Portfolio/images/02-hero-bg.jpg");
+    position: relative;
+    background-color: rgba(51, 91, 120, 0.692);
+    background-blend-mode: multiply;
+    background-size: cover;
+    
+    height: 400px;
+    margin-bottom: 20px;
+  }
+
+  .display-4 {
+    background: rgb(109, 183, 204);
+    width: 300px;
+    float: right;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    font-size: 30px;
+    padding-left: 5px;
+  }
+
+  /* Body */
+
+  .horiseon {
+    background-image: url("/Bootstrap-Portfolio/images/digital-marketing-meeting.jpg");
+    max-width: 800px;
+    position: center;
+  }
+
