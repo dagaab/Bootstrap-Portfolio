@@ -19,7 +19,7 @@ This is the second version of my portfolio showing my Bootstrap skills. You can 
 By clicking on the links in the top menu, you will be moved to the corresponding section.
 
 
-![My Portfolio](/Bootstrap-Portfolio/images/my-portfolio.png "My Portfolio")
+![My Portfolio](images/my-portfolio.png "My Portfolio")
 
 ## License
 
